@@ -1,3 +1,4 @@
+import 'package:agrifarm/AddPost.dart';
 import 'package:agrifarm/PinCodeVerificationScreen.dart';
 import 'package:agrifarm/PostDetails.dart';
 import 'package:agrifarm/Profile.dart';
@@ -22,7 +23,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: VerifyContact(),
+      home: AddPost(),
     );
   }
 }
